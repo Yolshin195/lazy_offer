@@ -1,0 +1,10 @@
+[package]
+name = "main"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+config = "0.15.22" # Поддерживает .env, TOML, ENV vars
+anyhow = "1.0"
+dotenvy = "0.15"
